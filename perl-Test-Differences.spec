@@ -4,7 +4,7 @@
 
 Name:           perl-Test-Differences
 Version:        %{RPM_version}
-Release:        10%{?dist}
+Release:        9%{?dist}
 Summary:        Test strings and data structures and show differences if not OK
 
 Group:          Development/Libraries
@@ -72,9 +72,6 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.5000-10
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.5000-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
